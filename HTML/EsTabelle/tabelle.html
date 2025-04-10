@@ -1,82 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Sito</title>
-
+    <title>sito</title>
 </head>
+<body>
+    
+    <table align="center" border="0" width="1000px" style="color: lightslategray;">
 
-    <body>
-        <table align="center">
-            <tr>
-                <td>
-                    <!-- top immagine penna -->
-                    <table>
-                        <tr> 
-                            <td>
-                                <img src="top.jpg">
-                            </td>
-                        </tr>
-                        <!-- banner-menu informazioni -->
-                        <tr> 
-                            <td align="center" style="background-color: lightslategrey; padding:15px">
-                                |<strong> HOME </strong>|<strong> LA NOSTRA AZIENDA </strong>|<strong> I PRODOTTI </strong>
-                                |<strong> I SERVIZI </strong>|<strong> CARRELLO </strong>|<strong> I CONTATTI</strong>
-                            </td> 
-                        </tr>
-                        <!-- laterale sx register-login-catalogo -->
-                        <table>
-                        <tr>
-                            
-                            <td>
-                                <img src="registrati-ora.jpg"> 
-                            </td>
-                            <td width="20px"></td>
-                            <td>
-                                <h4>L'attività della Edit Service offre i seguenti servizi:</h4>
-                                <p>Visita periodica al vostro studio consegnandovi direttamente in conto visione le ultime<br> novità editoriali senza 
-                                   obbligo di acquisto. La possibilità di richiedere sempre in visione<br> tutti i libri che volete o che troverete elencati
-                                   nel sito. Ricevere le Banche Dati di vostra<br> utilità in demo. Ricevere periodicamente le news via E-mail e il
-                                   catalogo di tutte le<br> novità facendone semplicemente richiesta.</p>
-                            </td>
-                        </tr>
-                        <table>
-                            <tr>
-                                <td>
-                                    <img src="login.jpg">
-                                </td>
-                                <td width="20px"></td>
-                                <td> <img src="libro1.jpg" height="200px"></td>
-                                <td>
-                                    <!-- informazioni libro 1 -->
-                                    <table>
-                                        <tr><td><strong>Le frodi carosello</strong></td></tr>
-                                        <tr><td></td></tr>
-                                        <tr><td></td></tr>
-                                        <tr><td></td></tr>
-                                        <tr><td></td></tr>
-                                        <tr><td></td></tr>
-                                        <tr><td></td></tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
-                            <tr>
-                                <td>
-                                    <img src="catalogo.jpg">
-                                </td>
-                                <td width="20px"></td>
-                                
-                            </tr>
-                        
-                    </table>
-                </td>
+        <!-- Top -->
+        <tr>
+            <td colspan="2">
+                <img src="top.jpg" width="100%">
+            </td>
+        </tr>
 
-            </tr>
-        </table>
+        <!-- Menu -->
+        <tr>
+            <td colspan="2" align="center" style="background-color: lightslategrey; padding: 15px;">
+                <a style="color: black;">|</a> <strong style="color: black;">HOME</strong> <a style="color: black;">|</a>
+                <strong style="color: black;">LA NOSTRA AZIENDA</strong> <a style="color: black;">|</a>
+                <strong style="color: black;">I PRODOTTI</strong> <a style="color: black;">|</a>
+                <strong style="color: black;">I SERVIZI</strong> <a style="color: black;">|</a>
+                <strong style="color: black;">CARRELLO</strong> <a style="color: black;">|</a>
+                <strong style="color: black;">CONTATTI</strong> <a style="color: black;">|</a>
+            </td>
+        </tr>
 
-    </body>
-</html>
+        <!-- Corpo principale -->
+        <tr align="top">
+            <!-- Colonna sinistra: registrazione, login, catalogo -->
+            <td width="30%">
+                <table border="0">
+                    <tr>
+                        <td><img src="registrati-ora.jpg" width="200px"></td>
+                    </tr>
+                    <tr><td><br></td></tr>
+                    <tr>
+                        <td><img src="login.jpg" width="200px"></td>
+                    </tr>
+                    <tr><td><br></td></tr>
+                    <tr>
+                        <td><img src="catalogo.jpg" width="200px"></td>
+                    </tr>
+                </table>
+            </td>
 
+            <!-- Colonna destra: servizi e libri -->
+            <td>
+                <!-- Servizi -->
+                <table border="0" width="100%">
+                    <tr>
+                        <td >
+                            <h4 style="color: black;">L'attività della Edit Service offre i seguenti servizi:</h4>
+                            <p style="color: black;">
+                                Visita periodica al vostro studio consegnandovi direttamente in conto visione le ultime novità editoriali senza
+                                obbligo di acquisto. La possibilità di richiedere sempre in visione tutti i libri che volete o che troverete
+                                nel sito. Ricevere le Banche Dati di vostra utilità in demo. Ricevere periodicamente le news via E-mail e il
+                                catalogo di tutte le novità facendone semplicemente richiesta.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+
+                <!-- Libro1 -->
+                <table border="0">
+                    <tr>
+                        <td><img src="libro1.jpg" height="200px"></td>
+                        <td width="20px"></td>
+                        <td>
+                            <table>
+                                <tr><td><strong>Le frodi carosello</strong></td></tr>
+                                <tr><td>Categoria: Fiscale</td></tr>
+                                <tr><td>Editore: MAGGIOLI</td></tr>
+                                <tr><td>Codice: 9788891619204</td></tr>
+                                <tr><td>Prezzo: 22,00</td></tr>
+                                <tr><td>*** Articolo disponibile ***</td></tr>
+                                <tr><td><a href="#">...maggiori informazioni</a></td></tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- Libro2 -->
+                    <tr>
+                        <td><img src="libro2.jpg" height="200px"></td>
+                        <td width="20px"></td>
+                        <td>
+                            <table>
+                                <tr><td><strong>La cartella
+                                    di pagamento</strong></td></tr>
+                                <tr><td>Categoria: Fiscale</td></tr>
+                                <tr><td>Editore: MAGGIOLI</td></tr>
+                                <tr><td>Codice: 9788891621115</td></tr>
+                                <tr><td>Prezzo: 54,00</td></tr>
+                                <tr><td>*** Articolo disponibile ***</td></tr>
+                                <tr><td><a href="#">...maggiori informazioni</a></td></tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- Libro3 -->
+                    <tr>
+                        <td><img src="libro3.jpg" height="200px"></td>
+                        <td width="20px"></td>
+                        <td>
+                            <table>
+                                <tr><td><strong>Azienda agricola e fisco</strong></td></tr>
+                                <tr><td>Categoria: Fiscale</td></tr>
+                                <tr><td>Editore: MAGGIOLI</td></tr>
+                                <tr><td>Codice: 9788891619815</td></tr>
+                                <tr><td>Prezzo: 42,00</td></tr>
+                                <tr><td>*** Articolo disponibile ***</td></tr>
+                                <tr><td><a href="#">...maggiori informazioni</a></td></tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+           
+</body>
