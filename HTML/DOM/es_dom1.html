@@ -1,0 +1,36 @@
+<!-- creare un form -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        
+        function controllo() {
+            let x = document.getElementById("nome").value
+            let mex = document.getElementById("messaggio")
+            if( x == "") {
+
+                mex.innerHTML("ERRORE: NOME CAMPO OBBLIGATORIO")
+            }
+        }
+
+    </script>
+
+</head>
+<body>
+
+    <form>
+        NOME: <input type="text" name="nome" id="nome" maxlength="40" required="true">
+        <br>
+        COGNOME: <input type="text" name="cognome" id="cognome" maxlength="30" required="true">
+
+        <input type="button" value="Invio" onclick="controllo()">
+        <h1 id="messaggio"></h1>
+    </form>
+    
+</body>
+</html>
