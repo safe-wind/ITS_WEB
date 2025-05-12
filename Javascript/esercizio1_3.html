@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h2 id="type1"></h1> 
+    <h2 id="type2"></h1>
+    <h2 id="type3"></h1>
+
+    <script>
+        let x = 10;
+        let y = x;
+        let z = "Mario";
+        
+        document.getElementById("type1").innerHTML = `${x} type: ${typeof(x)}`;
+        document.getElementById("type2").innerHTML = `${y} type: ${typeof(y)}`;
+        document.getElementById("type3").innerHTML = `${z} type: ${typeof(z)}`;
+
+    </script>
+</body>
+</html>

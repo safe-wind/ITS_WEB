@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title> ciao</title>
+
+<script>
+    // TIPI VARIABILI
+    // tipi : string number boolean null e undefined
+    // 1 - il tipo non va dichiarato
+    let nome = "Gino";
+    // string FASE 2
+    // template string == f""(python) -> `` (javascript altgr+tasto p. interrogativo)
+    let frase = `${nome} ciao`;
+    console.log(frase);
+
+    function test() {
+        let x = document.getElementById("mynumber").value;
+        console.log(typeof(x));
+        //cambiare i tipi(type) delle variabili
+        let z = parseInt(x);
+        let y = parseFloat(x);
+        let w = z.toString()
+    }
+    // NaN -> nOT A nUMBER
+    // isNaN -> restituisce un bool alla domanda is not a number
+    // 
+
+</script>
+</head>
+<body>
+    <h1> Le Variabili </h1>
+    <input type="number" id="mynumber">
+    <button onclick="test()">VAI!</button>
+</body>
+</html>
