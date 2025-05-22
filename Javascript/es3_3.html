@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="tempo"></div>
+
+    <script>
+        let time = 12560
+        let calcola_secondi = parseInt(time%60)
+        let calcola_minuti = parseInt((time%3600)/60)
+        let calcola_ore = parseInt(time/3600)
+        
+        document.getElementById("tempo").innerHTML = `${calcola_ore}ore, ${calcola_minuti}minuti, ${calcola_secondi}secondi`
+    </script>
+</body>
+</html>
