@@ -1,0 +1,37 @@
+
+<!--                FUNZIONI 
+    senza oggetto la funzione non può esistere
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="somma"></div>
+    <div id="saluto"></div>
+
+    <script>
+        // esempio funzione senza ritorno
+        function somma(num1=0,num2=0){
+            document.getElementById("somma").innerHTML = num1 + num2;
+        }
+        //invocazione della funzione
+        somma(1,2);
+
+        //esempio funzione con il return
+        function saluto(nome1){
+            return "Welcome " + nome1;
+        }
+        //invocazione della funzione saluto
+
+        let output = saluto("Giulia");
+        
+        document.getElementById("saluto").innerHTML = "<i>"+output+"</i>";
+    </script>
+</body>
+</html>
