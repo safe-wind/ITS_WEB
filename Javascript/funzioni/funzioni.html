@@ -14,6 +14,8 @@
 
     <div id="somma"></div>
     <div id="saluto"></div>
+    <div id="compare"></div>
+    <div id="es_5-2"></div>
 
     <script>
         // esempio funzione senza ritorno
@@ -32,6 +34,19 @@
         let output = saluto("Giulia");
         
         document.getElementById("saluto").innerHTML = "<i>"+output+"</i>";
+    
+        function equals(arg1, arg2) {
+
+            if (arg1===arg2){
+                document.getElementById("compare").innerHTML = true;
+            }else{
+                document.getElementById("compare").innerHTML = false;
+            }
+        }
+        
+        equals(1,2);
+
+        
     </script>
 </body>
 </html>
