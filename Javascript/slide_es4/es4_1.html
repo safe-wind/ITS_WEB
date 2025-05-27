@@ -6,19 +6,32 @@
     <title>Document</title>
 </head>
 <body>
+    
+    <h3>Tabellina while</h3>
+    <div id="tabellina_while"></div>
+    <h3>Tabellina for</h3>
+    <div id="tabellina_for"></div>
+    
 
-    <div id="tabellina"></div>
     <script>
-
+        let resultWhile="";
         let n=5;
         let i=0;
+        let cont=0
         
         while (i<=10) {
-            resultWhile += numero+" x " + i +" = "+ (n*i) +"<br>";
+            resultWhile += n + " x " + i + " = "+ (n*i) +"<br>";
             i++;
-        };
-    document.getElementById("tabellina").innerHTML = resultWhile;
-
+        }
+        ;
+        let x=10;
+        let resultFor = ``;
+        for (let cont=0; cont <= 10; cont++) {
+            resultFor += `${x} x ${cont} = ${x*cont} <br>`;
+            
+        }
+    document.getElementById("tabellina_while").innerHTML = resultWhile;
+    document.getElementById("tabellina_for").innerHTML = resultFor;
     </script>
 </body>
 </html>
