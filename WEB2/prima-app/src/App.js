@@ -2,11 +2,18 @@
 import './App.css';
 import Componente1 from './Componente1';
 import Clock from './Clock';
-import Messaggio from "./Componente1"
-import Anagrafica from "./Componente1"
+import Messaggio from "./Componente1";
+import Anagrafica from "./Componente1";
+import Contatore from './Contatore';
+import React, { useState } from 'react';
 
 
 function App() {
+
+  //contatore
+  
+
+  //const [persone,setpersone] = useState(Anagrafica)
   let nome="Mario";
 
   const persona1 = {
@@ -21,9 +28,17 @@ function App() {
   eta:"70",
   };
 
-  return (
-    <div className="App">
+  
+  
 
+
+
+
+
+  return (
+  
+    <div className="App">
+      <Contatore></Contatore>
       <h1>Prima App React {nome}</h1>
       
       <Componente1 {...persona1}></Componente1>
