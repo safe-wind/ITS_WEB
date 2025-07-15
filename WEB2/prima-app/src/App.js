@@ -6,49 +6,52 @@ import Messaggio from "./Componente1";
 import Anagrafica from "./Componente1";
 import Contatore from './Contatore';
 import React, { useState } from 'react';
-
+import CambioNome from './CambioNome';
+import LoginForm from './LoginForm';
+import EsercizioSlide5 from './EsercizioSlide5';
 
 function App() {
+
+
 
   //contatore
   
 
   //const [persone,setpersone] = useState(Anagrafica)
-  let nome="Mario";
+  // let nome="Mario";
 
-  const persona1 = {
-    nome:"Mario",
-    cognome:"Bros",
-    eta:"50",
-  };
+  // const persona1 = {
+  //   nome:"Mario",
+  //   cognome:"Bros",
+  //   eta:"50",
+  // };
 
-  const persona2 = {
-  nome:"Browser",
-  cognome:"Bros",
-  eta:"70",
-  };
-
-  
-  
-
-
-
-
-
+  // const persona2 = {
+  // nome:"Browser",
+  // cognome:"Bros",
+  // eta:"70",
+  // };
   return (
-  
-    <div className="App">
-      <Contatore></Contatore>
-      <h1>Prima App React {nome}</h1>
+  // 
+    // <div className="App">
+    //   <Contatore></Contatore>
+    //   <h1>Prima App React {nome}</h1>
       
-      <Componente1 {...persona1}></Componente1>
-      <Componente1 {...persona2}></Componente1>
-      <Componente1 nome="Luigi" cognome="Bros" eta="50"></Componente1>
+    //   <CambioNome></CambioNome>
+    //   <LoginForm></LoginForm>
+    //   <Componente1 {...persona1}></Componente1>
+    //   <Componente1 {...persona2}></Componente1>
+    //   <Componente1 nome="Luigi" cognome="Bros" eta="50"></Componente1>
       
-      <Clock timezone="-6" country="USA"></Clock>
-      <Clock timezone="0" country="Italy"></Clock>
-      <Clock timezone="+7" country="Japan"></Clock>
+    //   <Clock timezone="-6" country="USA"></Clock>
+    //   <Clock timezone="0" country="Italy"></Clock>
+    //   <Clock timezone="+7" country="Japan"></Clock>
+    // </div>
 
+//
+
+    <div className='App'>
+      <EsercizioSlide5></EsercizioSlide5>
     </div>
   );
 }
