@@ -9,7 +9,9 @@ import React, { useState } from 'react';
 import CambioNome from './CambioNome';
 import LoginForm from './LoginForm';
 import EsercizioSlide5 from './EsercizioSlide5';
-
+import Saluto from './Saluto';
+import CardUtente from './CardUtente';
+import MenuRistorante from './3/MenuRistorante';
 function App() {
 
 
@@ -52,6 +54,9 @@ function App() {
 
     <div className='App'>
       <EsercizioSlide5></EsercizioSlide5>
+      <Saluto></Saluto>
+      <CardUtente nome="Mario" email="mar@io.com" imgUrl="https://placehold.co/600x+400"></CardUtente>
+      <MenuRistorante></MenuRistorante>
     </div>
   );
 }
